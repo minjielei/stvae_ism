@@ -1,0 +1,22 @@
+{
+    "seed": 77,
+    "patch_size": 128,
+    "J": 6,
+    "L": 4,
+    "ncluster": 4,
+    "num_samples": 600,
+    "device": "gpu",
+    "dataset": "plasmoid_sim",
+    "project_name": "plasmoid_iso_noise_max_epoch-300_batchsize-512_lr-0.001_ncluster-4_latent_dim-32_min_temp-0.7_w_rec-0.15_w_cat-1.0_hidden_dim-1024_nlayer-4",
+    "config_name": "facvae_train_sim.json",
+    "idx_info_filename": "idx_info/idx_info_J6_L4_iso.npy",
+    "nchunks": 40,
+    "estimator_name": "s_cov_iso",
+    "image_init": 0,
+    "idx": 1072,
+    "vselect": [6],
+    "steps": 400,
+    "learning_rate": 0.2,
+    "if_large_batch": 0,
+    "print_each_step": 1
+}

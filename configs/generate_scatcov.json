@@ -1,0 +1,14 @@
+{
+    "window_size": 4096,
+    "N": 256,
+    "S": 128,
+    "J": 7,
+    "L": 4,
+    "vlim": 40,
+    "device": "gpu",
+    "normalize": 0,
+    "nchunks": 100,
+    "scov_idx": "for_synthesis_iso",
+    "filename": "high_latitude_amplitude",
+    "input_path": "/home/minjilei/Dropbox/Documents/Research/projects/galfa_io/data/galfa_hi/"
+}

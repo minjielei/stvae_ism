@@ -1,0 +1,53 @@
+method: bayes
+metric:
+  goal: maximize
+  name: cluster_separation
+parameters:
+  cuda:
+    value: 1
+  seed: 
+    value: 12
+  max_epoch:
+    value: 100
+  batchsize:
+    value: 512
+  lr:
+    value: 0.001
+  ncluster:
+    value: 3
+  latent_dim:
+    value: 32
+  init_temp:
+    value: 1.0
+  min_temp:
+    distribution: uniform
+    min: 0.2
+    max: 1.0
+  temp_decay:
+    value: 0.013862944
+  w_gauss:
+    value: 1.0
+  w_rec:
+    distribution: log_uniform_values
+    min: 0.05
+    max: 0.5
+  w_cat:
+    distribution: log_uniform_values
+    min: 0.2
+    max: 1.0
+  wd:
+    value: 0.0
+  hidden_dim:
+    value: 1024
+  nlayer:
+    value: 4
+  load_to_memory:
+    value: 1
+  h5_filename:
+    value: high_latitude_N-256_S-128_J-7_L-4_vlim-40_normalize-1_scov_idx-for_synthesis_iso.h5
+  clip:
+    value: 20
+  normalize:
+    value: 1
+  relu_slope:
+    value: 0.2
