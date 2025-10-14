@@ -10,7 +10,7 @@ import os, shutil
 import torch
 import wandb
 
-from facvae.utils import (configsdir, datadir, parse_input_args, read_config,
+from gmvae.utils import (configsdir, datadir, parse_input_args, read_config,
                           make_experiment_name, ScatCovDataset, logsdir,
                           checkpointsdir)
 from scripts.facvae_trainer import FactorialVAETrainer

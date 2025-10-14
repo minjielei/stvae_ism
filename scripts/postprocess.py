@@ -5,7 +5,7 @@ from tqdm import tqdm
 
 # from scripts.scov_synthesis_generic import st_synthesize
 from scripts.facvae_trainer import FactorialVAETrainer
-from facvae.utils import (datadir, make_experiment_name, postdir, configsdir, 
+from gmvae.utils import (datadir, make_experiment_name, postdir, configsdir, 
                           parse_input_args, read_config, ScatCovDataset)
 
 GALFA_PATH = datadir('galfa_hi')

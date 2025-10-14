@@ -8,7 +8,7 @@ from scattering.angle_transforms_simple import FourierAngle
 from scattering.scale_transforms import FourierScale
 from turbustat.statistics.apodizing_kernels import TukeyWindow
 
-from facvae.utils import (configsdir, datadir, parse_input_args, read_config,
+from gmvae.utils import (configsdir, datadir, parse_input_args, read_config,
                           make_h5_file_name)
 
 # Path to GALFA-HI data directory.

@@ -12,7 +12,7 @@ from scattering.Scattering2d import Scattering2d, get_scattering_index
 import wandb
 import matplotlib.pyplot as plt
 
-from facvae.utils import datadir
+from gmvae.utils import datadir
 
 class SourceSeparationSynthesis:
     """Separate components from a input image based on scattering vae model output

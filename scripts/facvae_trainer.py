@@ -5,8 +5,8 @@ import torch
 import wandb
 from tqdm import tqdm
 
-from facvae.utils import checkpointsdir, CustomLRScheduler, logsdir
-from facvae.vae import FactorialVAE, LossFunctions
+from gmvae.utils import checkpointsdir, CustomLRScheduler, logsdir
+from gmvae.vae import FactorialVAE, LossFunctions
 
 
 class FactorialVAETrainer(object):
